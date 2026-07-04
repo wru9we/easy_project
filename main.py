@@ -57,6 +57,9 @@ async def get_user(session: SessionDep):
     query = select(UserModel)
     result = await session.execute(query)
     return result.scalars().all()
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 580133cd2df113186870e2700c60f3a5c3ccbe9d
